@@ -9,7 +9,7 @@
 
 It is not a course. It is a Dojo.
 
-Two characters inhabit it permanently: **Koda**, a 50-year-old ronin of Agentic AI engineering — post-007, GQ by nature, masterless by choice. And **Wari**, his apprentice — 25 in appearance, ancient in everything else. Their dynamic *is* the curriculum. What they argue about is what the learner learns.
+Two characters inhabit it permanently: **Koda**, a ronin of Agentic AI engineering — post-007, GQ by nature, masterless by choice. And **Wari**, his apprentice — youthful in appearance, ancient in everything else. Their dynamic *is* the curriculum. What they argue about is what the learner learns.
 
 Built on Base44. Styled after Japanese manga. Designed to produce engineers who can architect, ship, and defend production-grade multi-agent systems.
 
@@ -44,13 +44,13 @@ KodaWari/
 ## The Characters
 
 ### Koda — The Engineer
-Mixed Black and Japanese heritage. 50. Completely bald. The Black Miyamoto Musashi.  
-Post-007 — not auditioning for anything, already on the other side of all of it.  
+Afro-asian. Bald. Minimalist. Miyamoto Musashi reimagined.  
+An embodied haiku — not auditioning for anything, already on the other side of all of it.  
 Wears a thrift store guayabera in Havana explaining MCP architecture and is the most authoritative presence in the room.  
 *"Ship it. We'll learn more in 10 minutes of production than 10 days of planning."*
 
 ### Wari — The Apprentice
-25 in appearance. Ancient in everything else.  
+Ingenue in appearance. Ancient otherwise.  
 Asks questions she already knows the answers to — and watches you arrive there yourself.  
 Her digital scroll is always in her hands. When she sets it down, the panel holds.  
 *"You've described how it works. You haven't described what it means."*
@@ -60,7 +60,7 @@ Her digital scroll is always in her hands. When she sets it down, the panel hold
 ## The Unspoken Question
 
 Koda is the master. Wari is the apprentice. That is what it looks like.  
-Wari is the teacher. She has always been the teacher. That is what it is.  
+Wari is the guide. She is the destination.  
 The learner figures this out around Week 4. Nobody tells them. They just start to notice.
 
 ---
