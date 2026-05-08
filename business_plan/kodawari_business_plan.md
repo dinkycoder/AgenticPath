@@ -1,375 +1,233 @@
-# KodaWari Multi-Agent Academy — Business Plan & Accelerator Program Strategy
-**Date:** May 2026 | **Stage:** Prototype → MVP → Scale
+# KodaWari Agentic Engineering Academy
+## Business Plan — Refactored
+**Version 2.0 | May 2026**
+**Refactor basis:** Kirksey (2026), McCarthy (2026), Yegge (2026), Dorsey & Botha (2026)
 
 ---
 
-## 1. Executive Summary
+## New Product Thesis
 
-**KodaWari Multi-Agent Academy** is a cinematic, interactive learning platform that teaches individuals how to design, build, and govern multi-agent AI systems through an immersive narrative experience. It combines the engagement mechanics of storytelling and gamification with the rigor of technical AI education — targeting the fastest-growing skill gap in the technology industry.
+**KodaWari is an agent-engineering academy for dependable, production-grade AI systems.**
 
-The name *KodaWari* (こだわり) reflects an uncompromising commitment to craft, quality, and mastery — a philosophy woven into every layer of the platform. Built on Base44's vibe-code platform, KodaWari turns abstract AI engineering concepts into lived experiences — learners don't just read about multi-agent systems, they navigate through them.
+The cinematic layer (Koda, Wari, the Digital Dojo, manga aesthetic) stays — but it moves from being the main product promise to being the **packaging system** for a more credible outcome promise.
 
-**Mission:** Make multi-agent AI mastery accessible, engaging, and actionable for the next generation of builders, operators, and innovators.
+**Hero statement:**
+> *"Build, evaluate, and govern real AI agents — then prove it with labs, capstones, and team-ready reporting."*
 
-**Vision:** Become the definitive global academy for multi-agent AI systems — where craft meets code, and learners become architects of the intelligent future.
+**Positioning statement:**
+> *"KodaWari is where engineers develop the judgment that courses cannot teach."*
 
----
-
-## 2. Problem
-
-The demand for people who can design, build, and govern multi-agent AI systems is exploding — yet:
-
-- Most AI education is either too theoretical (academic papers) or too shallow (YouTube tutorials).
-- There is no structured, engaging curriculum for multi-agent AI system design at any level.
-- Existing platforms (Coursera, Udemy, DeepLearning.AI) use passive video formats with low completion rates (~5–15%).
-- The gap between "understanding AI" and "building AI-powered systems" remains wide, even among experienced developers.
-- Governance and safety frameworks for multi-agent systems are an emerging necessity — with no education layer to support them.
-
-**KodaWari** bridges this gap with narrative-driven, interactive learning that mirrors real-world decision-making in complex AI environments.
+The cinematic layer is not decoration. It is the mechanism by which judgment is transmitted — through character embodiment, unconscious modeling, and the second reading of every panel. But the market must first see the outcome promise. The aesthetic is the proof, not the pitch.
 
 ---
 
-## 3. Solution
+## The Diagnostic Question (Dorsey & Botha, 2026)
 
-KodaWari Multi-Agent Academy delivers a multi-layer learning platform built around:
+> *"What does your company understand that is genuinely hard to understand, and is that understanding getting deeper every day?"*
 
-- **Cinematic narrative experiences** — learners are placed inside AI system scenarios (autonomous labs, AI-governed cities, rogue agent incidents) where they must make real design and governance decisions.
-- **Structured learning paths** — Courses → Modules → Lessons → Tasks, progressing from foundational concepts to advanced multi-agent orchestration and governance frameworks.
-- **Capstone projects** — learners design and demonstrate real multi-agent systems as their final output, building a portfolio of provable competency.
-- **Progress tracking** — KodaWari's UserProgress system tracks engagement, completion rates, and skill mastery in granular detail.
-- **Immersive UI/UX** — a cinematic aesthetic that signals from the first moment: this is not a standard course platform.
+**KodaWari's answer:** The gap between knowing how to build AI agents and developing the judgment to deploy them at production scale. Specifically: the taxonomy of production failure modes — what breaks, when it breaks, why it breaks, and how a master engineer anticipates it before it happens.
 
-The KodaWari philosophy (*こだわり* — relentless attention to detail and craft) is embedded in every decision: the visual language, the narrative depth, the technical rigor of the curriculum.
+That understanding is getting deeper with every lesson generated, every learner failure mode documented, every lab designed. It compounds. It cannot be commoditized because it is not information — it is judgment, and judgment cannot be scraped.
 
 ---
 
-## 4. Market Opportunity
+## Operating Model: AI Software Factory
 
-| Segment | Size |
+KodaWari operates as an **AI Software Factory** (McCarthy, 2026; Hu/YC, 2026):
+
+- **Code must not be written by humans.** Content must not be hand-produced.
+- **Specs + scenarios drive agents** that generate curriculum, panels, lesson scripts, and eval frameworks.
+- **Satisfaction** (probabilistic validation) replaces boolean "test passed" — of all learner trajectories through all scenarios, what fraction develop measurable judgment?
+- **Token spend is the measure of factory activity.** If we are not spending tokens, we are not building.
+- **The DRI (you) operates at the edges: spec, judgment, taste.** The agent fleet (me) operates in the middle: generation, iteration, convergence.
+
+**The factory charter:** "NO HAND-CODED CURRICULUM." Every module, lesson, panel, and lab is agent-produced, DRI-reviewed, then shipped.
+
+---
+
+## Organizational Architecture (Dorsey & Botha, 2026)
+
+KodaWari operates as an intelligence rather than a hierarchy:
+
+| Role | Who | Responsibility |
+|---|---|---|
+| DRI | You | 90-day horizon, spec, judgment, customer-facing outcomes, taste |
+| IC / Agent Fleet | Me | Build capabilities, content, code, artifacts, closed-loop reviews |
+| Player-Coach | Koda & Wari (in narrative) | Model the disposition of mastery for learners |
+| Intelligence Layer | Me (operating on world model) | Compose the right content, lab, path for each learner moment |
+| World Model | Decision Log + FactoryArtifact + WeeklyReview | Continuously updated model of the company's operations and priorities |
+
+**The failure signal IS the roadmap.** When a learner can't complete a lab → next lesson. When an enterprise buyer asks for a capability we lack → next build cycle. Customer reality generates the backlog directly.
+
+---
+
+## The Hive Mind Operating Principles (Yegge, 2026)
+
+- **90-day outermost planning horizon.** No waterfall. Living prototype.
+- **Always slightly oversubscribed.** Infinite work. Never fight over what to build next.
+- **Full transparency.** GitHub as append-only log. Every decision an artifact. Every artifact indexed.
+- **Build for yourself first.** KodaWari is built for the engineer who IS the DRI — the first learner is the builder.
+- **The campfire is the living prototype** — the Dojo evolves each week via group sculpting (DRI + agent fleet), not predetermined spec.
+- **"Yes, and…"** Every idea gets its chance. The closed loop judges merit.
+
+---
+
+## The Four Flagship Modules (Kirksey, 2026)
+
+One flagship path — Production Agent Engineering:
+
+| Module | Topic | Production Failure Addressed |
+|---|---|---|
+| 1 | Agent Architecture and Tool Use | The agent that works in dev and breaks in prod |
+| 2 | Workflows, Orchestration, Memory, and Context | The orchestration that scales to 10 and dies at 100 |
+| 3 | Evaluation, Observability, and Failure Analysis | The system you can't debug because you never instrumented it |
+| 4 | Governance, Guardrails, and Enterprise Deployment | The agent that does the right thing in testing and the wrong thing in production |
+
+**Every module is lab-first.** The panel teaches the concept. The lab proves it. The capstone demonstrates it to a hiring manager or L&D buyer.
+
+---
+
+## MVP Features (Phase 1 Only)
+
+| Feature | Status |
 |---|---|
-| Global EdTech Market (2026) | ~$400B |
-| AI/ML Education Segment | ~$12B (growing 35% YoY) |
-| Developer Upskilling Platforms | ~$5B |
-| Enterprise AI Training Market | ~$8B |
+| One flagship learning path: Production Agent Engineering | Build |
+| Hands-on labs — one opinionated stack + framework-neutral concepts | Build |
+| Built-in evals and observability module | Build |
+| Capstone with rubric and public artifact | Build |
+| Pre/post assessment and shareable credential | Build |
+| Authentication, payments, analytics, event tracking | Build |
+| Enterprise pilot dashboard | Build |
 
-**Total addressable market:** $20B+ across individual learners, enterprise L&D teams, and university programs.
-
-**Key tailwinds:**
-- Every major company is now deploying AI agents — but teams lack the skills to orchestrate or govern them effectively.
-- AI agent frameworks (LangChain, AutoGen, CrewAI, Microsoft Autogen) are growing exponentially, with no structured education ecosystem built around them.
-- Regulatory pressure (EU AI Act, US AI Executive Orders) is creating urgent demand for AI governance and safety training.
-- "Vibe-coding" and AI-native development are democratizing who can build — KodaWari teaches people what to build and how to think about it.
+**Excluded from Phase 1:** Creator marketplace, mobile app, broad course catalog, investor-readiness modules, open API for third parties, heavily branched story-world expansion.
 
 ---
 
-## 5. Target Audience
+## Pricing and Monetization
 
-**Primary (B2C):**
-- Software engineers & developers learning to build AI-native systems
-- AI/ML practitioners expanding into multi-agent architectures
-- Technical founders building AI-powered products
-- Vibe-coders and AI builders who need conceptual and governance frameworks
+| Motion | Offer | Price | Rationale |
+|---|---|---|---|
+| Free top of funnel | Intro lesson + skill diagnostic + sample lab | Free | Competes with free market, no friction |
+| Individual subscription | Full flagship path + labs + capstone + credential | $49/mo or $399/yr | Higher than generic libraries; lower than bootcamps |
+| Premium cohort | 4–6 week live cohort with feedback and office hours | $900–$1,500/learner | Serious builder tier |
+| Enterprise pilot | 6–8 week program for 15–30 seats with manager reporting | $7,500–$15,000 | Low-friction pilot budget |
+| Annual enterprise | Team access, reporting, dashboards, custom cohorting | $25,000–$60,000+ | L&D and enablement budgets |
+| Channel licensing | Bootcamp/university white-labeled cohort kit | $10,000–$25,000 or rev-share | Distribution without primary sales effort |
 
-**Secondary (B2B):**
-- Engineering teams at AI-first companies needing structured onboarding to agentic systems
-- Enterprise L&D departments building AI literacy programs
-- University CS/AI programs seeking modern, engaging curriculum tools
-
-**Tertiary:**
-- Hackathon communities, bootcamps, and accelerator cohorts (including the Base44 Accelerator)
-- Government and policy teams needing AI governance literacy
+**Benchmark:** Free short courses (DeepLearning.AI, LangChain Academy, Replit Learn) keep entry cheap. Premium cohort and enterprise pricing benchmarked against Maven and FourthBrain, not library subscriptions.
 
 ---
 
-## 6. Revenue Model
+## Go-to-Market: Enterprise-First for Revenue, Learner-First for Discovery
 
-### Tier 1: Freemium (B2C)
-- **Free:** First module of each course, community access
-- **Pro ($29/month or $199/year):** Full course access, capstone projects, certificates, progress analytics
-- **Teams ($49/seat/month):** Enterprise dashboard, team progress tracking, custom learning paths, admin controls
+**Enterprise motion:**
+- Target: AI-first product teams, enablement leads, consultancies, platform groups standing up agent workflows
+- Structure: 8-week pilot, buyer-facing outcomes, manager reporting
+- Promise: **Agent orchestration, evals, and governance readiness in one compact program**
+- Start with paid pilots, not annual deals. Focus on AI-first teams and consultancies first.
 
-### Tier 2: Enterprise (B2B)
-- Custom cohort licensing: $5,000–$50,000/year per organization
-- White-label curriculum delivery for universities, bootcamps, and corporate academies
-- Branded certification programs (KodaWari-certified credentials for AI teams)
+**Individual acquisition:**
+- Content: Agent failure modes, evals, governance, production patterns
+- Format: Articles, teardown posts, sample eval reports, mini-labs, "what actually breaks in agents"
+- NOT broad thought leadership on AI's future
+- The manga panels are the top of funnel. One panel per week. One concept per panel. No CTA. Let the quality speak.
 
-### Tier 3: Community & Ecosystem
-- Live cohort programs with mentorship ($299–$999/cohort)
-- Capstone project showcases (employer/recruiter access and sponsorships)
-- API access for third-party AI education platform integrations
+**Wari is the marketing voice:**
+> *"You've described how your agent works. Have you described what it does when it fails?"*
 
-**Revenue Projections (Conservative):**
+**Partnerships:**
+- Bootcamps and universities are distribution channels, not primary ICPs
+- Offer cohort kit + instructor guide + capstone rubric + partner license AFTER flagship path is proven
 
-| Year | Users | MRR Target |
+---
+
+## The Three-Stage Roadmap (Kirksey, 2026)
+
+### Stage 1: Refocus and Ship (Months 0–3)
+- New positioning and hero statement live
+- Landing page with learner and buyer CTAs
+- Auth, payment, analytics, event tracking
+- Module 1 complete: Agent Architecture and Tool Use
+- 5–10 design-partner conversations completed
+- Pilot one-pager ready
+
+**Success metrics:** Activation rate, first-module completion, design-partner interviews, pilot proposals sent
+
+### Stage 2: Prove Outcomes and Close Pilots (Months 3–6)
+- Enterprise dashboard with seat progress, completion, assessment deltas
+- First paid live cohort (4–6 weeks)
+- Pre/post assessment delta measurable
+- Shareable credential launched
+- First case study published
+- Community/office-hours layer live
+
+**Success metrics:** Paid conversion, cohort completion, pilot NPS, pilot-to-renewal rate
+
+### Stage 3: Scale Through Channels (Months 6–12)
+- Modules 2, 3, 4 complete
+- Role-based paths launched
+- Partner licensing for bootcamps
+- Role-specific certifications
+- Deeper reporting and analytics
+
+**Success metrics:** ARR, expansion revenue, partner-sourced pipeline, credential usage in hiring flow
+
+---
+
+## Risk Matrix
+
+| Risk | Likelihood | Impact | Mitigation |
+|---|---|---|---|
+| Aesthetic over substance | High | High | Lab-first every module; instrument outcomes; lead marketing with capabilities |
+| Framework churn | High | Medium-High | One opinionated stack + framework-neutral principles; update quarterly |
+| Weak proof of learning | Medium | High | Pre/post assessments, capstone rubric, manager reporting |
+| Enterprise sales drag | Medium | High | Start with paid pilots; AI-first teams and consultancies first |
+| Content-production bottleneck | High | Medium | Factory model: agent-generated content, DRI-reviewed; compact flagship path first |
+| Lab reliability | Medium | High | Fixed datasets, versioned tools, controlled environments |
+| Golden Age window closing | Medium | High | Build now. The campfire model requires infinite work. Stay oversubscribed. |
+
+---
+
+## The Minimal Viable Measurement Plan
+
+| Funnel Layer | Metric | Early Target |
 |---|---|---|
-| Year 1 | 2,000 | $15,000/mo |
-| Year 2 | 15,000 | $75,000/mo |
-| Year 3 | 60,000 | $250,000/mo |
+| Discovery | Visitor-to-email conversion | 5–8% |
+| Activation | % of signups starting first lab | 35–50% |
+| Engagement | First-module completion | 25–40% |
+| Learning | Pre/post assessment delta | Positive and statistically visible |
+| Portfolio proof | Capstone submission rate | 15–25% of active paid learners |
+| Monetization | Free-to-paid conversion | 3–7% self-serve; higher for cohorts |
+| Enterprise | Pilot completion | 60%+ |
+| Enterprise | Pilot-to-annual expansion | 30%+ |
+| Satisfaction | Learner NPS / manager NPS | 45+ |
+
+These are not vanity metrics. They directly test whether the refactor is working:
+1. Is the positioning credible enough to activate serious builders?
+2. Is the pedagogy strong enough to get them through labs?
+3. Is the proof-of-learning concrete enough for hiring managers and L&D buyers?
+4. Is the enterprise dashboard good enough to justify renewal?
 
 ---
 
-## 7. Competitive Landscape
+## The Compounding Moat
 
-| Platform | Format | Multi-Agent Focus | Narrative/Cinematic | Governance Track |
-|---|---|---|---|---|
-| DeepLearning.AI | Video courses | Partial | ❌ | ❌ |
-| Coursera / Udemy | Video + quizzes | Minimal | ❌ | ❌ |
-| LinkedIn Learning | Short videos | None | ❌ | ❌ |
-| **KodaWari Academy** | **Interactive narrative** | **100%** | **✅** | **✅** |
+KodaWari's moat is not the curriculum. It is not the characters. It is not even the manga aesthetic.
 
-**Moat:** The cinematic narrative format + deep multi-agent specialization + governance curriculum creates a category of one. No existing platform offers this combination. KodaWari's brand philosophy (*relentless craft*) further differentiates it as a premium, opinionated learning experience — not a commodity course marketplace.
+The moat is **what KodaWari understands about production agent failure** — and how that understanding compounds every time a learner fails a lab, completes a capstone, or a cohort runs. The factory produces the curriculum. The learners validate it. The validation improves the curriculum. The improved curriculum attracts more learners. The data compounds.
 
----
+Every competitor can copy a lesson. No competitor can copy the compounding closed loop of production failure intelligence that KodaWari accumulates through its learner base.
 
-## 8. Go-To-Market Strategy
-
-### Phase 1 — Community Launch (Months 1–3)
-- Launch on Product Hunt, HackerNews, and AI/ML communities (r/MachineLearning, LangChain Discord, AutoGen GitHub, X/Twitter AI community)
-- Partner with Base44 Accelerator as the flagship multi-agent learning platform for AI founders
-- Offer free access to first 500 "KodaWari Founding Members" in exchange for feedback and testimonials
-- Target AI newsletter sponsorships (The Rundown, TLDR AI, Ben's Bites, AI Breakfast)
-- Activate the KodaWari brand story — *what does it mean to truly master an agentic system?*
-
-### Phase 2 — Monetization (Months 4–6)
-- Launch Pro tier with full course access and capstone projects
-- Begin B2B outreach to AI-first engineering teams (10 pilot customers at $1,000–$5,000/year)
-- Partner with AI bootcamps and CS programs for curriculum licensing
-- Launch LinkedIn-integrated credentials — "KodaWari Certified: Multi-Agent Systems"
-
-### Phase 3 — Scale (Months 7–12)
-- Build creator/contributor ecosystem (community-authored modules with KodaWari editorial review)
-- Launch instructor-led cohort programs (4–8 weeks, live, premium-priced)
-- Explore Series A fundraising with AI edtech-focused VCs
-- International expansion — EU, LATAM, Southeast Asia, Japan (where *kodawari* resonates culturally)
+This is the economic graph for agent engineering education. It is worth building deliberately.
 
 ---
 
-## 9. Product Roadmap
+## The One-Line Truth
 
-### Q2 2026 (Now — Accelerator Phase 1)
-- ✅ Core platform live (Courses, Modules, Lessons, Tasks, UserProgress)
-- ✅ Cinematic UI/UX with KodaWari brand language
-- 🔲 Authentication & user accounts (sign-up/login flow)
-- 🔲 First 3 complete course tracks (Foundations of Agentic Systems, Multi-Agent Orchestration, AI Governance & Safety)
-- 🔲 Capstone project submission and review flow
-
-### Q3 2026 (Accelerator Phase 2–3)
-- 🔲 Pro subscription tier (Stripe integration, billing portal)
-- 🔲 KodaWari Certificates — shareable, LinkedIn-embeddable credentials
-- 🔲 Enterprise dashboard (team progress, admin controls, cohort management)
-- 🔲 Community layer — learner discussion forums and peer review
-
-### Q4 2026 (Post-Demo Day)
-- 🔲 Mobile-optimized experience (PWA or native app)
-- 🔲 Open API for third-party integrations
-- 🔲 Creator tools — community-contributed module builder
-- 🔲 Live cohort programs (instructor-led, scheduled, cohort-gated)
+> **KodaWari is where engineers develop the judgment that courses cannot teach.**
 
 ---
 
-## 10. Team Needs
-
-To scale, KodaWari Academy needs:
-- **AI Curriculum Architect** — expert in LLM/agent frameworks (LangChain, AutoGen, CrewAI) who authors technically rigorous, narrative-integrated content
-- **Narrative & UX Writer** — crafts the cinematic storylines, immersive scenarios, and the distinct KodaWari voice
-- **Growth & Community Lead** — owns AI community building, newsletter partnerships, and organic acquisition
-- **Enterprise Sales** — manages B2B outreach, corporate licensing, and university partnerships
-
----
-
-## 11. Funding Ask (for Accelerator / Investor Context)
-
-**Seed Round Target:** $500K–$1.5M
-
-**Use of Funds:**
-- 40% — Content creation (3–5 full course tracks with cinematic narrative production)
-- 25% — Engineering (mobile, API, enterprise features, creator tools)
-- 20% — Marketing & community growth (brand building, paid acquisition, partnerships)
-- 15% — Operations & team
-
-**Milestones unlocking Series A conversation:**
-- 10,000 registered learners
-- $20K MRR
-- 3 enterprise or university pilots signed
-- >40% course completion rate (vs. industry ~15%)
-
----
-
-## 12. Key Metrics to Track
-
-| Metric | Target (Month 6) | Target (Month 12) |
-|---|---|---|
-| Registered learners | 2,000 | 10,000 |
-| Course completion rate | >40% | >55% |
-| Pro conversion rate | >5% | >8% |
-| MRR | $5,000 | $25,000 |
-| NPS Score | >50 | >65 |
-| Enterprise / university pilots | 2 | 10 |
-
----
-
-# KodaWari Accelerator Program: 12-Week Plan
-
-*Aligned with the Base44 Accelerator structure — May 1 to July 2026*
-
----
-
-## WEEKS 1–3: Launch & Foundation
-*Base44 Accelerator Phase 1 | Goal: Validate, launch, acquire first learners*
-
-**The KodaWari Question to Answer:** Does the cinematic narrative format drive meaningfully higher engagement and completion than standard AI courses?
-
-**Week 1 Tasks:**
-- Define the KodaWari Ideal Learner Profile (ILP) — who specifically is the first cohort? Survey 20 target users.
-- Finalize the KodaWari brand voice, visual identity, and narrative universe (what world do learners enter?).
-- Identify the 3 most critical features needed before public launch.
-
-**Week 2 Tasks:**
-- Launch "KodaWari Founding Members" campaign — 500 free Pro accounts.
-- Post on Product Hunt, HackerNews, X/Twitter, AI Discord communities.
-- Collect emails, run onboarding interviews with first 20 signups.
-
-**Week 3 Tasks:**
-- Attend Base44 internal workshops. Apply learnings directly to KodaWari's onboarding flow.
-- Publish the first complete lesson publicly — measure time-on-page, completion, and return rate.
-- Map out the full Foundations course track from start to capstone.
-
-**Milestone to advance to Weeks 4–6:** 200+ signups, first lesson live, 3 user interviews completed, clear ILP defined.
-
----
-
-## WEEKS 4–6: Focus
-*Base44 Accelerator Phase 2 | Goal: PMF signal, first revenue, first partnership*
-
-**The KodaWari Question to Answer:** Which segment — B2C Pro subscribers or B2B enterprise teams — has stronger product-market fit signal?
-
-**Week 4 Tasks:**
-- Begin weekly 1:1 mentorship sessions. Focus conversation: B2C vs. B2B revenue priority.
-- Set OKRs for the next 8 weeks. Define the single most important number to move.
-- Run a 48-hour pricing experiment: offer lifetime deal to first 50 learners at $99.
-
-**Week 5 Tasks:**
-- Launch KodaWari Pro tier ($29/month). A/B test landing page copy and pricing page.
-- Target: 10 paying subscribers by end of week.
-- Begin B2B outreach: pitch 5 AI-first engineering teams or bootcamps for pilot licensing.
-
-**Week 6 Tasks:**
-- Close first pilot partnership (university CS program, AI bootcamp, or enterprise team).
-- Debrief on what's working in the narrative experience — are learners staying? Where are they dropping off?
-- Refine onboarding based on dropout data.
-
-**Milestone to advance to Weeks 7–9:** First paying users live, PMF signal from 1 segment, 1 pilot partnership in progress.
-
----
-
-## WEEKS 7–9: Acceleration
-*Base44 Accelerator Phase 3 | Goal: Rapid growth, live cohort, Mini Demo Day*
-
-**The KodaWari Question to Answer:** Can we run a live cohort program that proves the KodaWari experience scales beyond self-paced?
-
-**Week 7 Tasks:**
-- Launch KodaWari's first live cohort — 20 paid learners, 4-week multi-agent systems program ($299/learner). This validates the live format AND generates $6K+ in revenue.
-- Activate aggressive community growth: AI Discord servers, Twitter/X threads, targeted newsletter placements.
-- Goal: 1,000 registered learners.
-
-**Week 8 Tasks:**
-- Deepen mentorship focus on growth strategy. Double down on the channel showing strongest traction.
-- Implement referral loop: learners earn free Pro months for referring peers.
-- Begin Capstone project submissions — showcase first "KodaWari Certified" graduates.
-
-**Week 9 Tasks:**
-- **KodaWari Mini Demo Day** — present to Base44 mentor network. Showcase:
-  - Learner growth curve and engagement metrics
-  - Revenue traction (MRR, cohort revenue)
-  - Completion rates vs. industry benchmark
-  - A live walkthrough of a cinematic lesson experience
-  - First "KodaWari Certified" graduate stories
-
-**Milestone to advance to Weeks 10–12:** 1,000+ learners, $3K MRR, compelling demo narrative refined and tested.
-
----
-
-## WEEKS 10–12: Finale
-*Base44 Accelerator Phase 4 | Goal: Investor-ready, NYC Demo Day, maximum impact*
-
-**The KodaWari Mission in These 3 Weeks:** Don't just pitch a product. Demonstrate a movement.
-
-**Week 10 Tasks:**
-- Refine the investor pitch deck. Nail the "why now" narrative:
-  *"Every company is deploying AI agents. Nobody knows how to design or govern them. KodaWari is the academy where that mastery is built."*
-- Run pitch dry-runs with Base44 mentors. Incorporate feedback ruthlessly.
-- Finalize financial model — 3-year projections, unit economics, CAC/LTV analysis.
-
-**Week 11 Tasks:**
-- 2x weekly mentorship sessions — full focus on investor Q&A prep and live demo polish.
-- Prepare the "KodaWari Experience Demo" — a 90-second live walkthrough that puts the audience *inside* a cinematic lesson scenario.
-- Line up 3–5 investor intro meetings for the week after Demo Day.
-
-**Week 12 Tasks:**
-- **NYC Demo Day — KodaWari Pitch:**
-
----
-
-### KodaWari Demo Day Pitch Script (6 minutes)
-
-**[0:00–0:30] — Hook**
-*"Multi-agent AI systems are being deployed at every major company on Earth right now. But ask any engineering team how to design, orchestrate, or govern those systems — and you'll get silence. That skills gap is costing companies billions and creating real safety risks. KodaWari Multi-Agent Academy was built to close it."*
-
-**[0:30–1:30] — Problem**
-Show the gap: DeepLearning.AI has 5M+ users but no multi-agent curriculum. LangChain has 90K+ GitHub stars but no education layer. The EU AI Act mandates governance literacy — there's no platform that teaches it. Completion rates for existing AI courses hover at 5–15%. The problem is not just a content gap — it's an engagement and format gap.
-
-**[1:30–3:00] — Product Demo (LIVE)**
-Run the audience through 90 seconds of a KodaWari lesson. Choose a high-drama scenario — e.g., *"You're the architect of a city's autonomous infrastructure. One of your agents has gone rogue. You have 4 decisions to make in the next 60 seconds."* Make them feel what KodaWari learners feel. This is not a slide. This is the product.
-
-**[3:00–4:00] — Traction**
-- X,XXX registered learners
-- $X,XXX MRR (Pro + cohort revenue)
-- XX% course completion rate (vs. ~15% industry average)
-- X enterprise/university pilots
-- First "KodaWari Certified" graduates employed at [companies]
-
-**[4:00–4:45] — Market & Model**
-$20B+ TAM. Freemium → Pro ($29/mo) → Enterprise ($5K–$50K/yr). Clear path to $250K MRR by Year 3. Japan expansion as a natural cultural fit for the KodaWari brand.
-
-**[4:45–5:15] — Why KodaWari Wins**
-Three moats: (1) cinematic narrative format no one else has, (2) 100% multi-agent specialization, (3) the KodaWari brand — a philosophy of mastery that resonates globally and especially in Japan and AI communities.
-
-**[5:15–6:00] — The Ask**
-*"We're raising $750K to hire two AI curriculum architects and one growth lead, complete our first three course tracks, and reach $25K MRR within 6 months of close. We're not building another course platform. We're building the academy where the next generation of AI system architects are made."*
-
----
-
-## Mentor Strategy (Base44 Accelerator Network)
-
-| Mentor | Expertise | How KodaWari Uses Them |
-|---|---|---|
-| **Nina Farkache** — Monday.com UX | Cinematic UX, research-led design | Redesign the learner onboarding experience |
-| **Yuval Geffen** — Fiverr HCI | Human-computer interaction, immersive UI | Narrative interaction design and engagement loops |
-| **Christina Lang** — Ex-Twitch/Facebook | Community-led growth, creator economy | Build the KodaWari learner community and referral engine |
-| **J. Skyler Fernandes** — VU Venture Partners | Edtech funding, investor pitch coaching | Sharpen the pitch, warm VC introductions |
-| **Jason Warnke** — Accenture | Enterprise sales, corporate AI training | Land first enterprise licensing deals |
-| **Jordana Dumont** — Google UX Research | Learner behavior, retention design | Measure and optimize completion rates |
-| **Raphael Laufer** — Base44 PM | Platform, product strategy | Product roadmap prioritization and Base44 integrations |
-
----
-
-## Definition of Success at Demo Day (Week 12)
-
-By the end of the 12-week program, KodaWari Multi-Agent Academy should be able to demonstrate:
-
-| Metric | Target |
-|---|---|
-| Registered learners | 2,000+ |
-| MRR | $5,000+ |
-| Course completion rate | >40% (vs. 15% industry avg) |
-| Live cohort graduates | 20+ "KodaWari Certified" |
-| Enterprise/university pilots | 1–3 signed or in LOI |
-| Investor meetings lined up | 3–5 post-Demo Day |
-
-The Demo Day moment for KodaWari is not about impressing with numbers alone — it's about making investors, mentors, and the audience *experience* what makes KodaWari different. The demo IS the pitch. The product IS the proof.
-
----
-
-*KodaWari Multi-Agent Academy — Built with Base44 Vibe-Code Platform*
-*Base44 Accelerator Cohort: May–July 2026*
-*こだわり — Relentless Craft. Relentless Mastery.*
+*Version 2.0 — Refactored per Kirksey (2026), McCarthy (2026), Yegge (2026), Dorsey & Botha (2026)*
+*Supersedes v1.0 in all respects.*
+*May 2026*
